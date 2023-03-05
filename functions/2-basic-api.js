@@ -2,6 +2,7 @@
 const items = require('../assets/data');
 
 exports.handler = async (event, context, callback) => {
+  // CORS bug fix
   return {
     headers: {
       'Access-Control-Allow-Origin': '*',
