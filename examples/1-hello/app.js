@@ -1,7 +1,7 @@
 const result = document.querySelector('.result');
 
 const fetchData = async () => {
-  // console.log('fetch data called');
+  console.log('fetch data called');
   try {
     // const data = await axios.get('/.netlify/functions/1-hello');
     // console.log(data);
